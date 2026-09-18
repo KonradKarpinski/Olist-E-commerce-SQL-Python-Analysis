@@ -11,8 +11,8 @@ This project was developed as a practical exercise to master end-to-end business
 ---
 
 ### 📂 Project Files
-* 💾 **SQL Queries:** [analysis_queries.sql](analysis_queries.sql)
-* 🐍 **Python Script:** [python_code.py](python_code.py)
+* 💾 **SQL Queries:** [analysis_queries.sql](scripts/analysis_queries.sql)
+* 🐍 **Python Script:** [python_code.py](scripts/python_code.py)
 
 ---
 
