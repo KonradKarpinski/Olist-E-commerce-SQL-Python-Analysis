@@ -18,7 +18,7 @@ This project was developed as a practical exercise to master end-to-end business
 
 ## 🧹 Task 0: Data Cleaning & Data Validation
 #### **Objective:**
-To ensure data integrity before performing advanced analysis or statistical modeling – specifically by identifying missing values and resolving data anomalies.
+To ensure data integrity before performing advanced analysis or statistical modeling – specifically by identifying missing values, duplicates and resolving data anomalies.
 
 #### **Python Query:**
 ```python
@@ -43,10 +43,13 @@ for col in dimensions:
     
     global_median = products[col].median()
     products[col] = products[col].fillna(global_median)
+
+# 5. Dropping duplicates
+geolocation = geolocation.drop_duplicates()
 ```
 
 #### **Analysis & Results:**
-The Python script cleans the raw dataset to fix missing values and logical errors. Key steps include filling missing product dimensions using category medians, labeling empty product categories as "Unknown", and removing impossible records (like orders delivered before they were even shipped). Minor missing details were left alone to preserve data volume. Finally, the clean dataset was exported to an SQL database for further analysis. Full code showing the process of finding missing values and checking datasets for anomalies can be found in the Python code file.
+The Python script cleans the raw dataset to fix missing values, logical errors and duplicates. Key steps include filling missing product dimensions using category medians, labeling empty product categories as "Unknown", and removing impossible records (like orders delivered before they were even shipped). Minor missing details were left alone to preserve data volume. Additionally, duplicate rows were removed. Finally, the clean dataset was exported to an SQL database for further analysis. Full code showing the process of finding missing values, duplicates and checking datasets for anomalies can be found in the Python code file.
 
 #### **Business Insights:**
 Good business decisions require clean data. By fixing broken delivery dates etc., we make sure our calculations for profitability and logistics are accurate. This step guarantees that all the final recommendations in this project are built on solid, trustworthy numbers.
