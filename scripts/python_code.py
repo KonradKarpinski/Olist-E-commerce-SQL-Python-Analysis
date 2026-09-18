@@ -133,6 +133,22 @@ invalid_dates_index = orders[orders['order_delivered_carrier_date'] > orders['or
 orders = orders.drop(invalid_dates_index)
 print((orders['order_delivered_carrier_date'] > orders['order_delivered_customer_date']).any())
 
+#CHECKING FOR DATA DUPLICATES
+
+print("Customers:", customers.duplicated().sum())
+print("Geolocation:", geolocation.duplicated().sum())
+print("Order Items:", order_items.duplicated().sum())
+print("Order Payments:", order_payments.duplicated().sum())
+print("Order Reviews:", order_reviews.duplicated().sum())
+print("Orders:", orders.duplicated().sum())
+print("Products:", products.duplicated().sum())
+print("Sellers:", sellers.duplicated().sum())
+print("Category Translation:", category_translation.duplicated().sum())
+
+#DROPPING DUPLICATES
+
+geolocation = geolocation.drop_duplicates()
+
 #UPLOADING UPDATED PYTHON DATABASE TO SQL
  
 engine = create_engine('sqlite:///olist_cleaned.db')
