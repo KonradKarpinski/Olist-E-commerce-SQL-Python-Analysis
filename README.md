@@ -430,6 +430,23 @@ Credit Card is the dominant payment method across all months. The data shows a m
 
 ---
 
+# 👥 Task 6: Dynamic Shipping Cost Simulator
+## Excel and Excel Power Query
+#### **Objective:**
+To build a dynamic Excel calculator for the logistics team to check historical shipping costs by region and simulate the financial impact of offering shipping discounts to customers.
+
+#### **Analysis & Results:**
+The backend was prepared using Power Query to merge datasets and remove unnecessary columns, creating a clean, two-column database. For the frontend dashboard, a custom calculator was built using a dropdown list and the `SUMIFS` function to dynamically sum costs for the selected state. Finally, a What-If Analysis Data Table with Conditional Formatting was integrated to visualize multiple customer discount scenarios.
+
+#### **Visual Result:**
+![Task 5 Results](images/Task5_Query2.png)
+![Task 5 Results](images/Task5_Excel.png)
+
+#### **Business Insights:**
+Credit Card is the dominant payment method across all months. The data shows a massive revenue spike in November 2017 (likely Black Friday), which helped establish a higher, stable baseline for sales in the first half of 2018.
+
+---
+
 ## 🎯 Final Business Conclusion
 
 Based on the hybrid SQL and Python analysis of the Olist dataset, the company’s current condition and strategic imperatives can be summarized as follows:
