@@ -413,7 +413,7 @@ The data shows that when customers return, they do it quickly—most often withi
 
 ---
 
-# 👥 Task 5: Sales & Payment Dashboard
+# 💳 Task 5: Sales & Payment Dashboard
 ## Excel and Excel Power Query
 #### **Objective:**
 To provide the sales team with an interactive dashboard to monitor revenue by payment method and month.
@@ -422,7 +422,7 @@ To provide the sales team with an interactive dashboard to monitor revenue by pa
 The data was processed in the background using Power Query to merge datasets, filter for 'delivered' orders, extract date components and standardize payment methods. This clean data model powers a dynamic Excel dashboard featuring a stacked Pivot Chart, interactive Slicers for time filtering (Year, Month), and a Total Revenue KPI card.
 
 #### **Visual Result:**
-![Task 5 Results](images/Task5_Query2.png)
+![Task 5 Results](images/Task5_Query3.png)
 ![Task 5 Results](images/Task5_Excel.png)
 
 #### **Business Insights:**
@@ -430,7 +430,7 @@ Credit Card is the dominant payment method across all months. The data shows a m
 
 ---
 
-# 👥 Task 6: Dynamic Shipping Cost Simulator
+# 🧮 Task 6: Dynamic Shipping Cost Simulator
 ## Excel and Excel Power Query
 #### **Objective:**
 To build a dynamic Excel calculator for the logistics team to check historical shipping costs by region and simulate the financial impact of offering shipping discounts to customers.
@@ -439,8 +439,8 @@ To build a dynamic Excel calculator for the logistics team to check historical s
 The backend was prepared using Power Query to merge datasets and remove unnecessary columns, creating a clean, two-column database. For the frontend dashboard, a custom calculator was built using a dropdown list and the `SUMIFS` function to dynamically sum costs for the selected state. Finally, a What-If Analysis Data Table with Conditional Formatting was integrated to visualize multiple customer discount scenarios.
 
 #### **Visual Result:**
-![Task 5 Results](images/Task5_Query2.png)
-![Task 5 Results](images/Task5_Excel.png)
+![Task 5 Results](images/Task6_Query2.png)
+![Task 5 Results](images/Task6_Excel.png)
 
 #### **Business Insights:**
 The simulation matrix clearly shows that offering shipping discounts to customers above the 15% threshold (marked in red) risks severe margin loss. For states with high shipping volumes like Rio de Janeiro (RJ), uncontrolled shipping promotions can lead to massive capital drain.
