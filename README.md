@@ -443,7 +443,7 @@ The backend was prepared using Power Query to merge datasets and remove unnecess
 ![Task 5 Results](images/Task5_Excel.png)
 
 #### **Business Insights:**
-Credit Card is the dominant payment method across all months. The data shows a massive revenue spike in November 2017 (likely Black Friday), which helped establish a higher, stable baseline for sales in the first half of 2018.
+The simulation matrix clearly shows that offering shipping discounts to customers above the 15% threshold (marked in red) risks severe margin loss. For states with high shipping volumes like Rio de Janeiro (RJ), uncontrolled shipping promotions can lead to massive capital drain.
 
 ---
 
