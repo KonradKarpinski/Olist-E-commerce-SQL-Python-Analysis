@@ -413,6 +413,22 @@ The data shows that when customers return, they do it quickly—most often withi
 
 ---
 
+# 👥 Task 5: Sales & Payment Dashboard
+## Excel and Excel Power Query
+#### **Objective:**
+To provide the sales team with an interactive dashboard to monitor revenue by payment method and month.
+
+#### **Analysis & Results:**
+The data was processed in the background using Power Query to merge datasets, filter for 'delivered' orders, extract date components and standardize payment methods. This clean data model powers a dynamic Excel dashboard featuring a stacked Pivot Chart, interactive Slicers for time filtering (Year, Month), and a Total Revenue KPI card.
+
+#### **Visual Result:**
+![Task 4 Results](images/Task4updated.png)
+
+#### **Business Insights:**
+Credit Card is the dominant payment method across all months. The data shows a massive revenue spike in November 2017 (likely Black Friday), which helped establish a higher, stable baseline for sales in the first half of 2018.
+
+---
+
 ## 🎯 Final Business Conclusion
 
 Based on the hybrid SQL and Python analysis of the Olist dataset, the company’s current condition and strategic imperatives can be summarized as follows:
