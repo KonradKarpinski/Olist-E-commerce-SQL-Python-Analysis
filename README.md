@@ -405,8 +405,8 @@ plt.show()
 The script filters the dataset to isolate users with multiple orders and extracts the exact timestamps of their first and second purchases. By calculating the difference in days, it generates a distribution histogram filtered to a standard one-year (365 days) timeframe, grouped into weekly (7-day) bins.
 
 #### **Visual Result:**
-![Task 4 Results](images/Task5_Query.png)
-![Task 4 Results](images/Task5_Excel2.png)
+![Task 4 Results](images/Figure_8.png)
+![Task 4 Results](images/Figure_7.png)
 
 #### **Business Insights:**
 The data shows that when customers return, they do it quickly—most often within the first week (1 to 7 days) after their first purchase. This means immediate engagement is key. To turn more one-time buyers into repeat customers, the marketing team should send automated "forgot something?" emails or quick discounts right after the first order. Focusing on this crucial first week is the best way to drive retention.
@@ -422,7 +422,8 @@ To provide the sales team with an interactive dashboard to monitor revenue by pa
 The data was processed in the background using Power Query to merge datasets, filter for 'delivered' orders, extract date components and standardize payment methods. This clean data model powers a dynamic Excel dashboard featuring a stacked Pivot Chart, interactive Slicers for time filtering (Year, Month), and a Total Revenue KPI card.
 
 #### **Visual Result:**
-![Task 5 Results](images/Task4updated.png)
+![Task 5 Results](images/Task5_Query2.png)
+![Task 5 Results](images/Task5_Excel.png)
 
 #### **Business Insights:**
 Credit Card is the dominant payment method across all months. The data shows a massive revenue spike in November 2017 (likely Black Friday), which helped establish a higher, stable baseline for sales in the first half of 2018.
