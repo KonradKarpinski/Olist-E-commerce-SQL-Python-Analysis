@@ -1,7 +1,7 @@
 # 📊 Brazilian E-commerce Analysis (Olist Dataset)
 
 ### **Project Overview**
-This project focuses on extracting actionable business insights from a large-scale e-commerce dataset containing over 100,000 orders. To tackle complex business problems - such as sales growth, logistics bottlenecks, brand profitability, and customer retention - I implemented a three-step workflow:
+This project focuses on extracting actionable business insights from a large-scale e-commerce dataset containing over 100,000 orders. To tackle complex business problems – such as sales growth, logistics bottlenecks, brand profitability, and customer retention – I implemented a three-step workflow:
 
 1. **Data Engineering & ETL (Python):** Cleaning raw datasets, fixing anomalies, and building an automated pipeline to export clean data into a relational SQL database and CSV files.
 2. **Advanced Analytics (SQL & Python):** Using SQL to write complex queries that aggregate and segment data directly from the database, followed by utilizing Python libraries (Pandas, Seaborn, SciPy) to test statistical hypotheses, uncover correlations, and create impactful data visualizations.
@@ -21,7 +21,7 @@ This project was developed as a practical exercise to master end-to-end business
 
 ## 🧹 Task 0: Data Cleaning & Data Validation
 #### **Objective:**
-To ensure data integrity before performing advanced analysis or statistical modeling - specifically by identifying missing values, duplicates and resolving data anomalies.
+To ensure data integrity before performing advanced analysis or statistical modeling – specifically by identifying missing values, duplicates and resolving data anomalies.
 
 #### **Python Query:**
 ```python
@@ -163,7 +163,7 @@ Health & Beauty and Watches are the primary revenue drivers for the platform. Th
 
 ## Step B: Margin killers (PYTHON)
 #### **Objective:**
-To cross-reference the top revenue-generating product categories with their average customer review scores, identifying "margin killers" - categories that drive high gross sales but suffer from poor customer satisfaction.
+To cross-reference the top revenue-generating product categories with their average customer review scores, identifying "margin killers" – categories that drive high gross sales but suffer from poor customer satisfaction.
 
 #### **PYTHON Query:**
 ```python
@@ -412,7 +412,7 @@ The script filters the dataset to isolate users with multiple orders and extract
 ![Task 4 Results](images/Figure_7.png)
 
 #### **Business Insights:**
-The data shows that when customers return, they do it quickly - most often within the first week (1 to 7 days) after their first purchase. This means immediate engagement is key. To turn more one-time buyers into repeat customers, the marketing team should send automated "forgot something?" emails or quick discounts right after the first order. Focusing on this crucial first week is the best way to drive retention.
+The data shows that when customers return, they do it quickly – most often within the first week (1 to 7 days) after their first purchase. This means immediate engagement is key. To turn more one-time buyers into repeat customers, the marketing team should send automated "forgot something?" emails or quick discounts right after the first order. Focusing on this crucial first week is the best way to drive retention.
 
 ---
 
