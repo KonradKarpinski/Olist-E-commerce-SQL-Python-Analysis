@@ -412,7 +412,7 @@ The script filters the dataset to isolate users with multiple orders and extract
 ![Task 4 Results](images/Figure_7.png)
 
 #### **Business Insights:**
-The data shows that when customers return, they do it quickly—most often within the first week (1 to 7 days) after their first purchase. This means immediate engagement is key. To turn more one-time buyers into repeat customers, the marketing team should send automated "forgot something?" emails or quick discounts right after the first order. Focusing on this crucial first week is the best way to drive retention.
+The data shows that when customers return, they do it quickly - most often within the first week (1 to 7 days) after their first purchase. This means immediate engagement is key. To turn more one-time buyers into repeat customers, the marketing team should send automated "forgot something?" emails or quick discounts right after the first order. Focusing on this crucial first week is the best way to drive retention.
 
 ---
 
