@@ -4,16 +4,18 @@
 This project focuses on extracting actionable business insights from a large-scale e-commerce dataset containing over 100,000 orders. To tackle complex business problems — such as sales growth, logistics bottlenecks, brand profitability, and customer retention — I implemented a three-step workflow:
 
 1. **Data Engineering & ETL (Python):** Cleaning raw datasets, fixing anomalies, and building an automated pipeline to export clean data into a relational SQL database and CSV files.
-2. **Business Simulation & Reporting (Excel & Excel Power Query):** Transforming the exported datasets into interactive sales dashboards and a dynamic logistics shipping cost simulator.
-3. **Advanced Analytics (SQL & Python):** Using SQL to write complex queries that aggregate and segment data directly from the database, followed by utilizing Python libraries (Pandas, Seaborn, SciPy) to test statistical hypotheses, uncover correlations, and create impactful data visualizations.
+2. **Advanced Analytics (SQL & Python):** Using SQL to write complex queries that aggregate and segment data directly from the database, followed by utilizing Python libraries (Pandas, Seaborn, SciPy) to test statistical hypotheses, uncover correlations, and create impactful data visualizations.
+3. **Business Simulation & Reporting (Excel & Excel Power Query):** Transforming the exported datasets into interactive sales dashboards and a dynamic logistics shipping cost simulator.
 
 This project was developed as a practical exercise to master end-to-end business data analysis, where I utilized AI assistance to refine complex logic and optimize the workflow. The ultimate goal was to bridge the gap between raw database metrics and strategic, real-world business recommendations.
 
 ---
 
 ### 📂 Project Files
-* 💾 **SQL Queries:** [analysis_queries.sql](scripts/analysis_queries.sql)
 * 🐍 **Python Script:** [python_code.py](scripts/python_code.py)
+* 💾 **SQL Queries:** [analysis_queries.sql](scripts/analysis_queries.sql)
+* ⚙️ **Excel Power Query Scripts:** [excel_power_query_scripts.md](scripts/excel_power_query_scripts.md)
+* 📊 **Excel Dashboard & Simulator:** [excel_sales_logistics.xlsx](files/excel_sales_logistics.xlsx)
 
 ---
 
