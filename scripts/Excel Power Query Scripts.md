@@ -2,6 +2,7 @@ Task 5: Sales & Payments Dashboard
 
 Sales and Payments Dataset:
 
+```powerquery
 let
     Source = Csv.Document(File.Contents("C:\Users\User\Desktop\olist_orders_cleaned.csv"),[Delimiter=",", Columns=8, Encoding=1250, QuoteStyle=QuoteStyle.None]),
     #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
@@ -23,11 +24,13 @@ let
     #"Replaced Value - Debit Card" = Table.ReplaceValue(#"Replaced Value - Boleto","debit_card","Debit Card",Replacer.ReplaceText,{"Payment Type"})
 in
     #"Replaced Value - Debit Card"
+```
 
 Task 6: Dynamic Shipping Cost Simulator
 
 olist_orders_cleaned:
 
+```powerquery
 let
     Source = Csv.Document(File.Contents("C:\Users\User\Desktop\olist_orders_cleaned.csv"),[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
     #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
@@ -35,9 +38,11 @@ let
     #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([order_status] = "delivered"))
 in
     #"Filtered Rows"
+```
 
 Shipping Cost Dataset:
 
+```powerquery
 let
     Source = Table.NestedJoin(olist_orders_cleaned, {"order_id"}, olist_order_items_cleaned, {"order_id"}, "olist_order_items_cleaned", JoinKind.Inner),
     #"Merged Queries" = Table.NestedJoin(Source, {"customer_id"}, olist_customers_cleaned, {"customer_id"}, "olist_customers_cleaned", JoinKind.Inner),
@@ -48,3 +53,4 @@ let
     #"Renamed Columns" = Table.RenameColumns(#"Reordered Columns",{{"olist_customers_cleaned.customer_state", "Customer State"}, {"olist_order_items_cleaned.freight_value", "Shipping Cost"}})
 in
     #"Renamed Columns"
+```
