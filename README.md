@@ -422,7 +422,7 @@ To provide the sales team with an interactive dashboard to monitor revenue by pa
 The data was processed in the background using Power Query to merge datasets, filter for 'delivered' orders, extract date components and standardize payment methods. This clean data model powers a dynamic Excel dashboard featuring a stacked Pivot Chart, interactive Slicers for time filtering (Year, Month), and a Total Revenue KPI card.
 
 #### **Visual Result:**
-![Task 5 Results](images/Task5_Query3.png)
+![Task 5 Results](images/Task5_Query4.png)
 ![Task 5 Results](images/Task5_Excel.png)
 
 #### **Business Insights:**
@@ -439,7 +439,7 @@ To build a dynamic Excel calculator for the logistics team to check historical s
 The backend was prepared using Power Query to merge datasets and remove unnecessary columns, creating a clean, two-column database. For the frontend dashboard, a custom calculator was built using a dropdown list and the `SUMIFS` function to dynamically sum costs for the selected state. Finally, a What-If Analysis Data Table with Conditional Formatting was integrated to visualize multiple customer discount scenarios.
 
 #### **Visual Result:**
-![Task 5 Results](images/Task6_Query2.png)
+![Task 5 Results](images/Task6_Query4.png)
 ![Task 5 Results](images/Task6_Excel.png)
 
 #### **Business Insights:**
